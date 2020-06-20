@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import Recipient from "../Recipient";
 
 describe("acceptInjection", () => {
@@ -15,6 +16,7 @@ describe("acceptInjection", () => {
       });
     });
 
+    // eslint-disable-next-line global-require
     const Covid19Vaccine = require("../covid19Vaccine");
 
     const recipient = new Recipient();
@@ -32,6 +34,7 @@ describe("acceptInjection", () => {
         };
       });
     });
+    // eslint-disable-next-line global-require
     const Covid19Vaccine = require("../covid19Vaccine");
 
     const recipient = new Recipient();
